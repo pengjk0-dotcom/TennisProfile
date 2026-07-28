@@ -100,5 +100,21 @@ annotations and derived tabular outputs are released under CC BY 4.0, to the
 extent that the authors hold rights in those materials. No license is granted
 for third-party videos, body models, checkpoints, or software.
 
-Citation metadata will be added once the camera-ready proceedings record is
-available.
+## Citation
+
+Repository citation metadata is provided in [`CITATION.cff`](CITATION.cff) and
+is available through GitHub's **Cite this repository** menu. Until the
+proceedings DOI is assigned, the software release can be cited as:
+
+```bibtex
+@software{peng2026tennisprofile,
+  author  = {Peng, Jinkun},
+  title   = {TennisProfile: Reliability-Aware Groundstroke Profiling from
+             Monocular 3D Human Recovery},
+  year    = {2026},
+  version = {0.1.1},
+  url     = {https://github.com/pengjk0-dotcom/TennisProfile}
+}
+```
+
+The proceedings citation and DOI will be added after publication.

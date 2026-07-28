@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use TennisProfile, please cite this software release and the associated paper."
+title: "TennisProfile: Reliability-Aware Groundstroke Profiling from Monocular 3D Human Recovery"
+type: software
+authors:
+  - family-names: Peng
+    given-names: Jinkun
+    affiliation: "Independent Researcher, Shenzhen, China"
+    email: "pengjk0@gmail.com"
+    orcid: "https://orcid.org/0009-0000-1168-395X"
+repository-code: "https://github.com/pengjk0-dotcom/TennisProfile"
+url: "https://github.com/pengjk0-dotcom/TennisProfile"
+version: 0.1.1
+date-released: 2026-07-28
+license: MIT
+abstract: >-
+  Reproducibility materials for TennisProfile, including reviewed tennis
+  stroke events, fixed study splits, derived motion features, robustness
+  analyses, and figure-generation scripts.
