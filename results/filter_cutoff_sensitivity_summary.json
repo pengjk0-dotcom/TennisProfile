@@ -1,0 +1,31 @@
+{
+  "tested_requested_cutoffs_hz": [
+    4.0,
+    5.0,
+    6.0
+  ],
+  "baseline_requested_cutoff_hz": 6.0,
+  "summary": [
+    {
+      "requested_cutoff_hz": 4.0,
+      "n": 20,
+      "top1_stability_rate": 0.5,
+      "mean_top3_overlap": 0.8333333333333334,
+      "median_abs_rotation_score_change": 0.015461462007741233
+    },
+    {
+      "requested_cutoff_hz": 5.0,
+      "n": 20,
+      "top1_stability_rate": 0.85,
+      "mean_top3_overlap": 0.9,
+      "median_abs_rotation_score_change": 0.004168081919277616
+    },
+    {
+      "requested_cutoff_hz": 6.0,
+      "n": 20,
+      "top1_stability_rate": 1.0,
+      "mean_top3_overlap": 1.0,
+      "median_abs_rotation_score_change": 0.0
+    }
+  ]
+}

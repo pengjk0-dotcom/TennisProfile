@@ -1,0 +1,184 @@
+{
+  "cohort": {
+    "selected_subjects": 36,
+    "selected_trials": 72,
+    "expert_reference_subjects": 18,
+    "expert_holdout_subjects": 3,
+    "beginner_subjects": 15,
+    "documented_post_review_removals": [
+      "p1",
+      "p52"
+    ],
+    "not_sampled_subjects": 17,
+    "all_retained_trials_observed_right_handed": true,
+    "capture_setting_subject_counts": {
+      "indoor_gym": 30,
+      "small_indoor_room": 6
+    }
+  },
+  "multiple_comparisons": {
+    "tests_total": 22,
+    "tests_per_stroke": 11,
+    "minimum_uncorrected_p": 0.02384035645825629,
+    "minimum_bh_q_within_stroke": 0.1929516416606874,
+    "minimum_bh_q_global": 0.30122416616567416,
+    "discoveries_q_lt_0_05_within_stroke": 0,
+    "discoveries_q_lt_0_05_global": 0,
+    "direction_minimum_bh_q_within_stroke": 0.00537109375,
+    "direction_discoveries_q_lt_0_05_within_stroke": 9
+  },
+  "predefined_holdout": {
+    "setting": "all_selected_capture_settings",
+    "held_out_subjects": "p38;p47;p53",
+    "reference_n_subjects": 18,
+    "heldout_n_subjects": 3,
+    "beginner_n_subjects": 15,
+    "heldout_mean_abs_z": 0.4916983607006184,
+    "beginner_mean_abs_z": 0.7641221434823859,
+    "mean_abs_z_gap_beginner_minus_holdout": 0.27242378278176754,
+    "heldout_outside_rate": 0.0,
+    "beginner_outside_rate": 0.09696969696969697,
+    "outside_rate_gap_beginner_minus_holdout": 0.09696969696969697,
+    "heldout_mean_subject_rotation_score": 0.5189260613132934,
+    "beginner_mean_subject_rotation_score": 0.8850272899304966,
+    "rotation_score_gap_beginner_minus_holdout": 0.3661012286172032
+  },
+  "exhaustive_holdout": [
+    {
+      "setting": "all_selected_capture_settings",
+      "n_splits": 1330,
+      "reference_n_subjects": 18,
+      "heldout_n_subjects": 3,
+      "beginner_n_subjects": 15,
+      "mean_abs_z_gap_beginner_minus_holdout_positive_fraction": 0.5338345864661654,
+      "mean_abs_z_gap_beginner_minus_holdout_median": 0.013397043059177993,
+      "mean_abs_z_gap_beginner_minus_holdout_q025": -0.4953989690807314,
+      "mean_abs_z_gap_beginner_minus_holdout_q975": 0.23995307615983066,
+      "outside_rate_gap_beginner_minus_holdout_positive_fraction": 0.675187969924812,
+      "outside_rate_gap_beginner_minus_holdout_median": 0.02121212121212121,
+      "outside_rate_gap_beginner_minus_holdout_q025": -0.13333333333333333,
+      "outside_rate_gap_beginner_minus_holdout_q975": 0.08484848484848485,
+      "rotation_score_gap_beginner_minus_holdout_positive_fraction": 0.5428571428571428,
+      "rotation_score_gap_beginner_minus_holdout_median": 0.025595006880150817,
+      "rotation_score_gap_beginner_minus_holdout_q025": -0.4848518840052782,
+      "rotation_score_gap_beginner_minus_holdout_q975": 0.38157271122039627
+    },
+    {
+      "setting": "indoor_gym_only",
+      "n_splits": 455,
+      "reference_n_subjects": 12,
+      "heldout_n_subjects": 3,
+      "beginner_n_subjects": 15,
+      "mean_abs_z_gap_beginner_minus_holdout_positive_fraction": 0.8021978021978022,
+      "mean_abs_z_gap_beginner_minus_holdout_median": 0.12751955703001172,
+      "mean_abs_z_gap_beginner_minus_holdout_q025": -0.21129860609022738,
+      "mean_abs_z_gap_beginner_minus_holdout_q975": 0.34687608181988866,
+      "outside_rate_gap_beginner_minus_holdout_positive_fraction": 0.9010989010989011,
+      "outside_rate_gap_beginner_minus_holdout_median": 0.06060606060606061,
+      "outside_rate_gap_beginner_minus_holdout_q025": -0.03636363636363637,
+      "outside_rate_gap_beginner_minus_holdout_q975": 0.1303030303030303,
+      "rotation_score_gap_beginner_minus_holdout_positive_fraction": 0.3956043956043956,
+      "rotation_score_gap_beginner_minus_holdout_median": -0.04803573419809248,
+      "rotation_score_gap_beginner_minus_holdout_q025": -0.4883743291915062,
+      "rotation_score_gap_beginner_minus_holdout_q975": 0.2681369946065978
+    }
+  ],
+  "sports_pose_frame_rate_sensitivity": [
+    {
+      "source_fps": 90.0,
+      "target_fps": 10.0,
+      "feature_group": "fastest_motion_timing",
+      "n_feature_pairs": 60,
+      "n_trials": 20,
+      "n_subjects": 4,
+      "median_absolute_difference": 22.222222222222225,
+      "median_relative_difference": 0.34285714285714286,
+      "q25_relative_difference": 0.0,
+      "q75_relative_difference": 1.0
+    },
+    {
+      "source_fps": 90.0,
+      "target_fps": 10.0,
+      "feature_group": "peak_speed",
+      "n_feature_pairs": 60,
+      "n_trials": 20,
+      "n_subjects": 4,
+      "median_absolute_difference": 32.504205387197715,
+      "median_relative_difference": 0.15756709301239807,
+      "q25_relative_difference": 0.1089067786804081,
+      "q75_relative_difference": 0.2033477708240147
+    },
+    {
+      "source_fps": 90.0,
+      "target_fps": 10.0,
+      "feature_group": "rotation_range",
+      "n_feature_pairs": 60,
+      "n_trials": 20,
+      "n_subjects": 4,
+      "median_absolute_difference": 0.45399352476071897,
+      "median_relative_difference": 0.007429112365568166,
+      "q25_relative_difference": 0.002669776641716814,
+      "q75_relative_difference": 0.028707780481140324
+    },
+    {
+      "source_fps": 90.0,
+      "target_fps": 18.0,
+      "feature_group": "fastest_motion_timing",
+      "n_feature_pairs": 60,
+      "n_trials": 20,
+      "n_subjects": 4,
+      "median_absolute_difference": 11.111111111111114,
+      "median_relative_difference": 0.11111111111111115,
+      "q25_relative_difference": 0.0,
+      "q75_relative_difference": 0.4583333333333333
+    },
+    {
+      "source_fps": 90.0,
+      "target_fps": 18.0,
+      "feature_group": "peak_speed",
+      "n_feature_pairs": 60,
+      "n_trials": 20,
+      "n_subjects": 4,
+      "median_absolute_difference": 15.514150027924856,
+      "median_relative_difference": 0.061032720186297434,
+      "q25_relative_difference": 0.03948812561308974,
+      "q75_relative_difference": 0.0885847470171173
+    },
+    {
+      "source_fps": 90.0,
+      "target_fps": 18.0,
+      "feature_group": "rotation_range",
+      "n_feature_pairs": 60,
+      "n_trials": 20,
+      "n_subjects": 4,
+      "median_absolute_difference": 0.3674116733369388,
+      "median_relative_difference": 0.004027979829481618,
+      "q25_relative_difference": 0.0020869589761174433,
+      "q75_relative_difference": 0.009193355382015194
+    }
+  ],
+  "reference_baseline": [
+    {
+      "reference_type": "stroke_specific",
+      "heldout_mean_abs_z": 0.4916983607006184,
+      "heldout_outside_rate": 0.0,
+      "heldout_mean_subject_rotation_score": 0.5189260613132934,
+      "beginner_mean_abs_z": 0.7641221434823859,
+      "beginner_outside_rate": 0.09696969696969697,
+      "beginner_mean_subject_rotation_score": 0.8850272899304966,
+      "mean_abs_z_gap_beginner_minus_holdout": 0.27242378278176754,
+      "outside_rate_gap_beginner_minus_holdout": 0.09696969696969697
+    },
+    {
+      "reference_type": "pooled_strokes",
+      "heldout_mean_abs_z": 0.529610511581147,
+      "heldout_outside_rate": 0.0,
+      "heldout_mean_subject_rotation_score": 0.6952975925067278,
+      "beginner_mean_abs_z": 0.6920825152997356,
+      "beginner_outside_rate": 0.030303030303030304,
+      "beginner_mean_subject_rotation_score": 0.708904475905998,
+      "mean_abs_z_gap_beginner_minus_holdout": 0.1624720037185886,
+      "outside_rate_gap_beginner_minus_holdout": 0.030303030303030304
+    }
+  ]
+}

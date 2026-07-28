@@ -1,0 +1,17 @@
+action_type,phase,feature,mean_z_score,mean_abs_z_score,abs_mean_z,panel_title
+forehand_flat,"Early
+follow-through",Shoulder speed,-0.6421807287147446,0.6421807287147449,0.6421807287147446,Forehand
+forehand_flat,"Late
+follow-through",Pelvis speed,-0.6113880751946159,0.6579563422216109,0.6113880751946159,Forehand
+forehand_flat,"Early
+follow-through",Wrist speed,-0.6042997507310558,0.6557922464747858,0.6042997507310558,Forehand
+forehand_flat,"Late
+pre-contact",Pelvis speed,-0.5745443185727176,0.6096432974276572,0.5745443185727176,Forehand
+backhand,"Early
+follow-through",Wrist speed,-0.6820943549568994,1.0172678780777031,0.6820943549568994,Backhand
+backhand,"Early
+follow-through",Pelvis turn,0.7028819960071047,1.036421607510667,0.7028819960071047,Backhand
+backhand,"Late
+follow-through",Shoulder relative-to-pelvis turn,0.7392786212727345,1.0393727590086614,0.7392786212727345,Backhand
+backhand,"Late
+pre-contact",Pelvis turn,0.932634139017951,1.1513891967951893,0.932634139017951,Backhand

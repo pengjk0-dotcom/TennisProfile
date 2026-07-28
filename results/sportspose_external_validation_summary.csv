@@ -1,0 +1,10 @@
+metric,median,iqr,min,max
+pelvis_rotation_range_deg,99.405,16.679,61.54,127.601
+shoulder_rotation_range_deg,122.502,19.506,94.36,146.805
+shoulder_vs_pelvis_rotation_range_deg,35.274,9.93,17.79,52.811
+pelvis_peak_abs_velocity_deg_s,243.292,84.532,153.987,458.081
+shoulder_peak_abs_velocity_deg_s,373.937,88.574,221.968,522.897
+active_wrist_peak_speed_units_s,7.276,1.447,5.296,9.208
+pelvis_fastest_ms_relative_to_anchor,16.665,213.887,-255.56,333.33
+shoulder_fastest_ms_relative_to_anchor,-33.33,122.222,-200.0,122.22
+shoulder_after_pelvis_fastest_ms,-5.555,83.327,-455.56,66.67

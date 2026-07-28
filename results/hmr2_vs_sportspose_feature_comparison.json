@@ -1,0 +1,10 @@
+{
+  "n_trials": 12,
+  "n_feature_pairs": 120,
+  "paired_trials_csv": "data/processed/sportspose_hmr2_validation/hmr2_vs_sportspose_paired_trials.csv",
+  "comparison_csv": "data/processed/sportspose_hmr2_validation/hmr2_vs_sportspose_feature_comparison.csv",
+  "median_abs_timing_difference_ms": 66.667,
+  "median_abs_rotation_range_difference_deg": 13.905,
+  "median_relative_speed_difference": 0.432,
+  "note": "This first-pass comparison uses matched frames from the same SportsPose RGB clip. Wrist-speed values are scale-sensitive and should be interpreted as dataset-internal cues."
+}

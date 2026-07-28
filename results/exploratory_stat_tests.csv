@@ -1,0 +1,23 @@
+action_type,feature,feature_label,expert_n,beginner_n,expert_mean,beginner_mean,mann_whitney_u_p,cliffs_delta_beginner_vs_expert,beginner_below_expert_mean,beginner_above_expert_mean,dominant_direction,direction_consistency_p_one_sided
+backhand,active_wrist_peak_speed,Wrist peak speed,18,15,8.67472536692192,6.273844447050886,0.02384035645825629,-0.4666666666666667,12,3,below_expert_mean,0.017578125
+backhand,pelvis_fastest_minus_contact_frames,Pelvis fastest-motion time,18,15,1.1666666666666667,-1.4666666666666666,0.035082116665579526,-0.43333333333333335,12,3,below_expert_mean,0.017578125
+backhand,trunk_rom,Shoulder rotation range,18,15,83.64645083718491,100.92217772154487,0.10763801366279298,0.3333333333333333,5,10,above_expert_mean,0.15087890624999997
+backhand,separation_rom,Shoulder-vs-pelvis rotation range,18,15,35.21402524853737,42.179655331491475,0.1639313501447487,0.28888888888888886,3,12,above_expert_mean,0.017578125
+backhand,pelvis_peak_abs_velocity_dps,Pelvis peak rotation speed,18,15,168.66929609967673,140.4718823591568,0.2861639071174895,-0.2222222222222222,12,3,below_expert_mean,0.017578125
+backhand,wrist_minus_shoulder_fastest_frames,Wrist-shoulder fastest-motion gap,18,15,2.8333333333333335,3.1333333333333333,0.31728778227244514,0.2074074074074074,6,9,above_expert_mean,0.30361938476562494
+backhand,shoulder_minus_pelvis_fastest_frames,Shoulder-pelvis fastest-motion gap,18,15,-1.8333333333333333,0.6,0.33046061063845533,0.18888888888888888,1,14,above_expert_mean,0.00048828125
+backhand,shoulder_fastest_minus_contact_frames,Shoulder fastest-motion time,18,15,-0.6666666666666666,-0.8666666666666667,0.6109128345709134,-0.10740740740740741,9,6,below_expert_mean,0.30361938476562494
+backhand,pelvis_rom,Pelvis rotation range,18,15,57.86476597194766,61.297131863153304,0.7586012230870767,0.06666666666666667,7,8,above_expert_mean,0.4999999999999999
+backhand,wrist_fastest_minus_contact_frames,Wrist fastest-motion time,18,15,2.1666666666666665,2.2666666666666666,0.7703163303838271,-0.06296296296296296,10,5,below_expert_mean,0.15087890624999997
+backhand,trunk_peak_abs_velocity_dps,Shoulder peak rotation speed,18,15,227.91754961426992,210.76506040957312,0.8993022978950431,0.02962962962962963,10,5,below_expert_mean,0.15087890624999997
+forehand_flat,pelvis_peak_abs_velocity_dps,Pelvis peak rotation speed,18,15,191.01787712517992,126.36556768570898,0.04107602265895557,-0.4222222222222222,14,1,below_expert_mean,0.00048828125
+forehand_flat,trunk_peak_abs_velocity_dps,Shoulder peak rotation speed,18,15,327.0603677389237,257.82062503886357,0.092721928307392,-0.34814814814814815,12,3,below_expert_mean,0.017578125
+forehand_flat,pelvis_rom,Pelvis rotation range,18,15,77.89797496788896,60.81052919203842,0.1639313501447487,-0.28888888888888886,12,3,below_expert_mean,0.017578125
+forehand_flat,active_wrist_peak_speed,Wrist peak speed,18,15,7.969003144326188,6.403565408062026,0.18694846543219568,-0.2740740740740741,13,2,below_expert_mean,0.003692626953125
+forehand_flat,trunk_rom,Shoulder rotation range,18,15,128.242188965136,109.62993512381698,0.21226914289197207,-0.25925925925925924,11,4,below_expert_mean,0.05923461914062499
+forehand_flat,wrist_minus_shoulder_fastest_frames,Wrist-shoulder fastest-motion gap,18,15,-2.3333333333333335,-3.2,0.3539250368760156,-0.1925925925925926,6,9,above_expert_mean,0.30361938476562494
+forehand_flat,separation_rom,Shoulder-vs-pelvis rotation range,18,15,56.309358403988746,51.94303571844504,0.5508020125828832,-0.1259259259259259,9,6,below_expert_mean,0.30361938476562494
+forehand_flat,shoulder_fastest_minus_contact_frames,Shoulder fastest-motion time,18,15,0.5,1.3333333333333333,0.5984195958703795,0.1111111111111111,5,10,above_expert_mean,0.15087890624999997
+forehand_flat,wrist_fastest_minus_contact_frames,Wrist fastest-motion time,18,15,-1.8333333333333333,-1.8666666666666667,0.6634642075432193,-0.09259259259259259,8,7,below_expert_mean,0.4999999999999999
+forehand_flat,shoulder_minus_pelvis_fastest_frames,Shoulder-pelvis fastest-motion gap,18,15,3.7222222222222223,3.8,0.6648836291871363,0.08888888888888889,7,8,above_expert_mean,0.4999999999999999
+forehand_flat,pelvis_fastest_minus_contact_frames,Pelvis fastest-motion time,18,15,-3.2222222222222223,-2.466666666666667,0.8838876375428256,0.03333333333333333,7,8,above_expert_mean,0.4999999999999999

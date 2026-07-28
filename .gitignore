@@ -1,0 +1,38 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Licensed or generated source assets are never committed.
+external/
+raw/
+videos/
+frames/
+checkpoints/
+weights/
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Local HMR2/SMPL assets and intermediate predictions.
+smpl/
+SMPL*/
+hmr2_outputs/
+predictions/
+*.npz
+*.pkl
+
+# Local regeneration products.
+figures/*.pdf
+tmp/
+scratch/

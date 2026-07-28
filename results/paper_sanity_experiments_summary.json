@@ -1,0 +1,34 @@
+{
+  "final_split": {
+    "expert_reference_subjects": 18,
+    "beginner_subjects": 15,
+    "held_out_subjects": 3
+  },
+  "contact": {
+    "top1": 0.775,
+    "top3": 0.8694444444444442
+  },
+  "swing_end": {
+    "top1": 0.9083333333333333,
+    "top3": 0.9555555555555555,
+    "median_score_change": 0.015685928049645415
+  },
+  "filter_5hz": {
+    "requested_cutoff_hz": 5.0,
+    "n": 30.0,
+    "top1_stability_rate": 0.8,
+    "mean_top3_overlap": 0.9222222222222223,
+    "median_abs_rotation_score_change": 0.007661131258959425
+  },
+  "filter_4hz": {
+    "requested_cutoff_hz": 4.0,
+    "n": 30.0,
+    "top1_stability_rate": 0.7,
+    "mean_top3_overlap": 0.8222222222222222,
+    "median_abs_rotation_score_change": 0.0161483522494541
+  },
+  "loo": {
+    "top1": 0.8666666666666667,
+    "top3": 0.9438271604938271
+  }
+}

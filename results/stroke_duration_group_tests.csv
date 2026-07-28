@@ -1,0 +1,3 @@
+action_type,expert_n,beginner_n,expert_duration_ms_mean,beginner_duration_ms_mean,mann_whitney_u,mann_whitney_u_p,cliffs_delta_beginner_vs_expert
+backhand,18,15,1129.3209876543212,1235.6060084852656,179.0,0.1155341160851549,0.32592592592592595
+forehand_flat,18,15,1313.5439360929558,1444.4444444444443,175.0,0.15287782525524352,0.2962962962962963

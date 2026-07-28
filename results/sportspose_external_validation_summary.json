@@ -1,0 +1,81 @@
+{
+  "dataset": "SportsPose",
+  "subset": "outdoor tennis",
+  "n_sequences": 20,
+  "n_subjects": 4,
+  "subjects": [
+    "S00",
+    "S10",
+    "S22",
+    "S23"
+  ],
+  "fps": 90.0,
+  "frames_per_sequence": [
+    270
+  ],
+  "all_sequences_have_17_joints": true,
+  "all_features_finite": true,
+  "anchors_not_near_edge_count": 20,
+  "anchors_not_near_edge_percent": 100.0,
+  "active_wrist_counts": {
+    "right": 20
+  },
+  "local_video_files_present": 0,
+  "numeric_summary": {
+    "pelvis_rotation_range_deg": {
+      "median": 99.405,
+      "iqr": 16.679,
+      "min": 61.54,
+      "max": 127.601
+    },
+    "shoulder_rotation_range_deg": {
+      "median": 122.502,
+      "iqr": 19.506,
+      "min": 94.36,
+      "max": 146.805
+    },
+    "shoulder_vs_pelvis_rotation_range_deg": {
+      "median": 35.274,
+      "iqr": 9.93,
+      "min": 17.79,
+      "max": 52.811
+    },
+    "pelvis_peak_abs_velocity_deg_s": {
+      "median": 243.292,
+      "iqr": 84.532,
+      "min": 153.987,
+      "max": 458.081
+    },
+    "shoulder_peak_abs_velocity_deg_s": {
+      "median": 373.937,
+      "iqr": 88.574,
+      "min": 221.968,
+      "max": 522.897
+    },
+    "active_wrist_peak_speed_units_s": {
+      "median": 7.276,
+      "iqr": 1.447,
+      "min": 5.296,
+      "max": 9.208
+    },
+    "pelvis_fastest_ms_relative_to_anchor": {
+      "median": 16.665,
+      "iqr": 213.887,
+      "min": -255.56,
+      "max": 333.33
+    },
+    "shoulder_fastest_ms_relative_to_anchor": {
+      "median": -33.33,
+      "iqr": 122.222,
+      "min": -200.0,
+      "max": 122.22
+    },
+    "shoulder_after_pelvis_fastest_ms": {
+      "median": -5.555,
+      "iqr": 83.327,
+      "min": -455.56,
+      "max": 66.67
+    }
+  },
+  "interpretation": "This subset is used only as an external 3D-pose check. It has no skill labels or reviewed ball-contact labels in this analysis."
+}

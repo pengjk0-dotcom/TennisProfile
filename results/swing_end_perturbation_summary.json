@@ -1,0 +1,11 @@
+{
+  "overall_top1_stability_rate": 0.925,
+  "overall_mean_top3_overlap": 0.9458333333333334,
+  "overall_median_abs_rotation_score_change": 0.017984431141374102,
+  "deltas": [
+    -4,
+    -2,
+    2,
+    4
+  ]
+}

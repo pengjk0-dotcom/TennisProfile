@@ -1,0 +1,10 @@
+# Pinned analysis environment for the paper-facing feature and figure pipeline.
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+PyYAML==6.0.3
+openpyxl==3.1.5
+matplotlib==3.11.0
+opencv-python==4.13.0.92
+scikit-learn==1.9.0
+pytest==9.1.0

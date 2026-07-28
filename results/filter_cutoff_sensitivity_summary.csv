@@ -1,0 +1,4 @@
+requested_cutoff_hz,n,top1_stability_rate,mean_top3_overlap,median_abs_rotation_score_change
+4.0,30,0.7,0.8222222222222222,0.0161483522494541
+5.0,30,0.8,0.9222222222222223,0.007661131258959425
+6.0,30,1.0,1.0,0.0

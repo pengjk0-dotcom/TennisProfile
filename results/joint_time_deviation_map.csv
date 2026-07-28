@@ -1,0 +1,121 @@
+action_type,phase,feature,mean_z_score,mean_abs_z_score
+backhand,"Contact
+window",Pelvis speed,-0.328300405849279,0.5780925698167566
+backhand,"Contact
+window",Pelvis turn,0.6375395569671485,0.8152615209013195
+backhand,"Contact
+window",Shoulder relative-to-pelvis turn,0.012036050406121027,0.6099381156131619
+backhand,"Contact
+window",Shoulder speed,0.13877953273519442,0.4948147471219577
+backhand,"Contact
+window",Shoulder turn,0.5582742280199197,0.7819163504455862
+backhand,"Contact
+window",Wrist speed,-0.3260374255115369,0.39316045227983587
+backhand,"Early
+follow-through",Pelvis speed,-0.6523510647470878,1.0539848731567105
+backhand,"Early
+follow-through",Pelvis turn,0.7028819960071047,1.036421607510667
+backhand,"Early
+follow-through",Shoulder relative-to-pelvis turn,0.1821361269985669,0.7672360402206501
+backhand,"Early
+follow-through",Shoulder speed,-0.2381406832058521,0.9431804481909043
+backhand,"Early
+follow-through",Shoulder turn,0.6431686124842045,0.8391059860468424
+backhand,"Early
+follow-through",Wrist speed,-0.6820943549568994,1.0172678780777031
+backhand,"Early
+pre-contact",Pelvis speed,0.22269461533709142,0.8261892073216662
+backhand,"Early
+pre-contact",Pelvis turn,0.41454996493159013,0.7821942449579399
+backhand,"Early
+pre-contact",Shoulder relative-to-pelvis turn,-0.18379045478661035,0.4843559760074708
+backhand,"Early
+pre-contact",Shoulder speed,0.08046894862874805,0.7065277024021738
+backhand,"Early
+pre-contact",Shoulder turn,0.10735497524986289,0.7250436962701421
+backhand,"Early
+pre-contact",Wrist speed,-0.09319490255165244,0.6116170787593772
+backhand,"Late
+follow-through",Pelvis speed,-0.5556219742465712,0.5817717215996566
+backhand,"Late
+follow-through",Pelvis turn,0.4413513302057556,0.9585026427974495
+backhand,"Late
+follow-through",Shoulder relative-to-pelvis turn,0.7392786212727345,1.0393727590086614
+backhand,"Late
+follow-through",Shoulder speed,-0.17883165344115268,0.7436884850155583
+backhand,"Late
+follow-through",Shoulder turn,0.666078058931981,0.9032336414811544
+backhand,"Late
+follow-through",Wrist speed,0.6416497278892002,1.8440402896037624
+backhand,"Late
+pre-contact",Pelvis speed,0.05064710185529691,0.5478326049000676
+backhand,"Late
+pre-contact",Pelvis turn,0.932634139017951,1.1513891967951893
+backhand,"Late
+pre-contact",Shoulder relative-to-pelvis turn,-0.11347638948797117,0.49902793193876427
+backhand,"Late
+pre-contact",Shoulder speed,0.06775992066765175,0.4311279761601746
+backhand,"Late
+pre-contact",Shoulder turn,0.47482117653215733,0.8097438255457485
+backhand,"Late
+pre-contact",Wrist speed,-0.48580729252413285,0.5157474736307646
+forehand_flat,"Contact
+window",Pelvis speed,-0.2570187379736487,0.6449226484867767
+forehand_flat,"Contact
+window",Pelvis turn,-0.22566770319113758,0.5225352467997415
+forehand_flat,"Contact
+window",Shoulder relative-to-pelvis turn,-0.26306077262810784,0.8850276218593629
+forehand_flat,"Contact
+window",Shoulder speed,-0.17028429637721326,0.5732578849885095
+forehand_flat,"Contact
+window",Shoulder turn,-0.32515023683304123,0.6053271309232134
+forehand_flat,"Contact
+window",Wrist speed,-0.13600980695260154,0.30585243691039943
+forehand_flat,"Early
+follow-through",Pelvis speed,-0.524086218716974,0.5923090799800007
+forehand_flat,"Early
+follow-through",Pelvis turn,-0.15491069094418658,0.5813774138021215
+forehand_flat,"Early
+follow-through",Shoulder relative-to-pelvis turn,0.1291164691972023,0.9927376300703522
+forehand_flat,"Early
+follow-through",Shoulder speed,-0.6421807287147446,0.6421807287147449
+forehand_flat,"Early
+follow-through",Shoulder turn,-0.08926903115715369,0.6075156784641538
+forehand_flat,"Early
+follow-through",Wrist speed,-0.6042997507310558,0.6557922464747858
+forehand_flat,"Early
+pre-contact",Pelvis speed,-0.47288463981469325,0.48823356697099424
+forehand_flat,"Early
+pre-contact",Pelvis turn,-0.283131021838444,0.37614815880415997
+forehand_flat,"Early
+pre-contact",Shoulder relative-to-pelvis turn,-0.3850906859877083,0.6359850579726734
+forehand_flat,"Early
+pre-contact",Shoulder speed,-0.5314003759400482,0.5501602315914356
+forehand_flat,"Early
+pre-contact",Shoulder turn,-0.22534205357626627,0.3280057368305396
+forehand_flat,"Early
+pre-contact",Wrist speed,-0.1708005246065089,0.7896727288939229
+forehand_flat,"Late
+follow-through",Pelvis speed,-0.6113880751946159,0.6579563422216109
+forehand_flat,"Late
+follow-through",Pelvis turn,-0.30046331479777655,0.6999594761407473
+forehand_flat,"Late
+follow-through",Shoulder relative-to-pelvis turn,-0.06796029334973722,0.6796218002499329
+forehand_flat,"Late
+follow-through",Shoulder speed,-0.448751557204596,0.6297613669056085
+forehand_flat,"Late
+follow-through",Shoulder turn,-0.28741296008856604,0.7293287699936294
+forehand_flat,"Late
+follow-through",Wrist speed,-0.40411529566105553,0.711999377949269
+forehand_flat,"Late
+pre-contact",Pelvis speed,-0.5745443185727176,0.6096432974276572
+forehand_flat,"Late
+pre-contact",Pelvis turn,-0.3482785915993383,0.5343151666828241
+forehand_flat,"Late
+pre-contact",Shoulder relative-to-pelvis turn,-0.5158931710791783,1.0403402565109368
+forehand_flat,"Late
+pre-contact",Shoulder speed,-0.504390081302153,0.5384201690401998
+forehand_flat,"Late
+pre-contact",Shoulder turn,-0.37713111212092604,0.6331114653230207
+forehand_flat,"Late
+pre-contact",Wrist speed,-0.2712832892347968,0.5963139842631353

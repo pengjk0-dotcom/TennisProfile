@@ -1,0 +1,3 @@
+reference_type,heldout_mean_abs_z,heldout_outside_rate,heldout_mean_subject_rotation_score,beginner_mean_abs_z,beginner_outside_rate,beginner_mean_subject_rotation_score,mean_abs_z_gap_beginner_minus_holdout,outside_rate_gap_beginner_minus_holdout
+stroke_specific,0.4916983607006184,0.0,0.5189260613132934,0.7641221434823859,0.09696969696969697,0.8850272899304966,0.27242378278176754,0.09696969696969697
+pooled_strokes,0.529610511581147,0.0,0.6952975925067278,0.6920825152997356,0.030303030303030304,0.708904475905998,0.1624720037185886,0.030303030303030304

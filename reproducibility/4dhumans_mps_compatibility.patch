@@ -1,0 +1,82 @@
+diff --git a/demo.py b/demo.py
+index f3a2251..d97fe96 100644
+--- a/demo.py
++++ b/demo.py
+@@ -35,7 +35,12 @@ def main():
+     model, model_cfg = load_hmr2(args.checkpoint)
+ 
+     # Setup HMR2.0 model
+-    device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
++    if torch.cuda.is_available():
++        device = torch.device('cuda')
++    elif hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
++        device = torch.device('mps')
++    else:
++        device = torch.device('cpu')
+     model = model.to(device)
+     model.eval()
+ 
+diff --git a/hmr2/models/__init__.py b/hmr2/models/__init__.py
+index a42b8fe..a9f4e97 100644
+--- a/hmr2/models/__init__.py
++++ b/hmr2/models/__init__.py
+@@ -81,5 +81,11 @@ def load_hmr2(checkpoint_path=DEFAULT_CHECKPOINT):
+     # Ensure SMPL model exists
+     check_smpl_exists()
+ 
+-    model = HMR2.load_from_checkpoint(checkpoint_path, strict=False, cfg=model_cfg)
++    model = HMR2.load_from_checkpoint(
++        checkpoint_path,
++        strict=False,
++        cfg=model_cfg,
++        init_renderer=False,
++        weights_only=False,
++    )
+     return model, model_cfg
+diff --git a/hmr2/utils/mesh_renderer.py b/hmr2/utils/mesh_renderer.py
+index f996da9..15cfb1f 100644
+--- a/hmr2/utils/mesh_renderer.py
++++ b/hmr2/utils/mesh_renderer.py
+@@ -1,6 +1,6 @@
+ import os
+ if 'PYOPENGL_PLATFORM' not in os.environ:
+-    os.environ['PYOPENGL_PLATFORM'] = 'egl'
++    os.environ['PYOPENGL_PLATFORM'] = 'pyglet' if os.uname().sysname == 'Darwin' else 'egl'
+ import torch
+ from torchvision.utils import make_grid
+ import numpy as np
+diff --git a/hmr2/utils/renderer.py b/hmr2/utils/renderer.py
+index 22be8da..bc5e55d 100644
+--- a/hmr2/utils/renderer.py
++++ b/hmr2/utils/renderer.py
+@@ -1,6 +1,6 @@
+ import os
+ if 'PYOPENGL_PLATFORM' not in os.environ:
+-    os.environ['PYOPENGL_PLATFORM'] = 'egl'
++    os.environ['PYOPENGL_PLATFORM'] = 'pyglet' if os.uname().sysname == 'Darwin' else 'egl'
+ import torch
+ import numpy as np
+ import pyrender
+diff --git a/hmr2/utils/utils_detectron2.py b/hmr2/utils/utils_detectron2.py
+index fe01e02..a35178c 100644
+--- a/hmr2/utils/utils_detectron2.py
++++ b/hmr2/utils/utils_detectron2.py
+@@ -67,7 +67,8 @@ class DefaultPredictor_Lazy:
+             self.aug = mapper.augmentations
+             self.input_format = mapper.image_format
+ 
+-        self.model.eval().cuda()
++        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
++        self.model.eval().to(self.device)
+         if test_dataset:
+             self.metadata = MetadataCatalog.get(test_dataset)
+         assert self.input_format in ["RGB", "BGR"], self.input_format
+@@ -87,7 +88,7 @@ class DefaultPredictor_Lazy:
+                 original_image = original_image[:, :, ::-1]
+             height, width = original_image.shape[:2]
+             image = self.aug(T.AugInput(original_image)).apply_image(original_image)
+-            image = torch.as_tensor(image.astype("float32").transpose(2, 0, 1))
++            image = torch.as_tensor(image.astype("float32").transpose(2, 0, 1), device=self.device)
+             inputs = {"image": image, "height": height, "width": width}
+             predictions = self.model([inputs])[0]
+             return predictions
